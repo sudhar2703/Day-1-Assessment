@@ -1,0 +1,35 @@
+1.Write a blog on Difference between HTTP1.1 vs HTTP2
+HTTP1.1:
+             (i).Send multiple request and response in multiple connection.
+             (ii).It loads the resources one by one, if one resource fails it won't load the upcoming resources.
+             (iii).No priorities in loading.
+             (iv).server push is not possible.
+HTTP2:
+              (i).Send multiple request and response in single connection.
+             (ii).Send multiple streams of data at once so there won't be any blockage of resources.
+             (iii).Priorities in loading.
+             (iv).server push is possible.
+      
+2.Write a blog about objects and its internal representation in Javascript
+        (i).Objects are important data types in javascript and are different than number, string and boolean.
+        (ii).Primitive data types contain one value but Objects can hold many values in form of (Key: value pair).
+        (iii).These keys can be variables or functions and are called properties and methods.
+        (iv).Every object has some property associated with some value. 
+
+Example:
+var selva = {
+(object is created)
+selva.age = 25; (property of an object with values)
+
+selva.degree = 'b.tech';
+
+selva.branch = 'Mechanical';
+
+selva.cgpa = 7.95;
+}
+
+After creating selva object, the value inside the object (selva) can be accessed using keys.
+
+selva.age
+
+Output: 25
